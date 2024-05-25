@@ -1,0 +1,14 @@
+s = "racecar"
+t = "carrace"
+if len(s)!=len(t):
+    print("false")
+list1=[]
+list2=[]
+for i in s:
+    list1.append(i)
+for j in t:
+    list2.append(j)
+if list1==list2:
+    print("true")
+else:
+    print("false")
